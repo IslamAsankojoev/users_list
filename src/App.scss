@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.pagination{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    a{
+        background-color: #e2e2e245;
+        border:0px; 
+        transition: 0.2s ease-in-out;
+        border-radius: 0px;
+        &:hover{
+            background-color: #82828245;
+        }
+    }
+    .pagination__btn{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .pag__active{
+        color: #92BA49;
+        // color: white;
+        
+    }
+    .pagintaion__items{
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 18px;
+        font-weight: 700!important;
+        &:hover{
+            color: #92BA49!important;
+        }
+    }
+
+}
+.disable{
+    pointer-events: none;
+    cursor: default;
+}
+.container{
+    max-width: 1077px;
+    margin: 20px auto;
+    
+    table{
+        width: 100%;
+        border: 1px solid #E3E6EC;
+        tbody .head td{
+            padding: 15px;
+            background-color:#474955;
+            color:white;
+            border-color: #474955;
+            display: block;
+            text-indent: 20%;
+            transition: .2s ease-in-out;
+            cursor: pointer;
+            img{
+                
+                transform: translateX(100%) rotate(180deg)
+            }
+            img.active{
+                transform: translateX(100%) rotate(0deg)
+            }
+            
+            &:hover{
+                background-color:#363741;
+            }
+        }
+        tbody .head{
+            position: relative;
+        }
+        td{
+            padding: 13px;
+            font-size: 13px;
+            border:1px solid #E3E6EC;
+            display: flex;
+            align-items: center;
+            
+        }
+        tr{
+            display: flex;
+            .id{
+                text-align: center;
+                flex:1;
+                justify-content: center;
+            }
+            .title{
+                flex:7;
+            }
+            .body{
+                flex:6;
+            }
+        }
+    }
+}
+input.search{
+    width: 631px;
+    background-color: #5A5C66;
+    padding: 15px;
+    font-size: 14px;
+    border:none;
+    color: white;
+    margin-bottom: 15px;
+    &::placeholder{
+        color: #B2B7BF
+        ;
+    }
+}
