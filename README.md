@@ -1,7 +1,7 @@
 # User List simple Project 
 <img width="1099" alt="image" src="https://user-images.githubusercontent.com/105052376/167171000-8c571f11-286a-4b38-8c79-c02abd82575a.png">
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-<img width="1140" alt="Снимок экрана 2022-05-06 в 22 09 04" src="https://user-images.githubusercontent.com/105052376/167171072-11d502e8-b0b8-4095-bdc4-de672cab9862.png">
+
 
 ## Available Scripts
 
